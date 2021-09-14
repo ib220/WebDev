@@ -12,7 +12,7 @@
 
 .currentEvents{
     font-size: 30px;
-    font-family: Helvetica;
+    font-family: "Helvetica";
     font-weight: bold;
     margin-left: -10px;
     margin-right: 10px;
@@ -31,7 +31,7 @@
     font-size: 30px;
     color: #0c59cf;
     font-weight: bold;
-    font-family: Helvetica;
+    font-family: "Helvetica";
     text-align: center;
     padding-bottom: 100px;
     padding-top: 100px;
@@ -44,6 +44,59 @@
     background-repeat: no-repeat;
 }
 
-.header, .imageIPCC{
-    margin:0;
+.informationIPCC{
+    background-color: #58a6ff;
+    display:flex;
+    justify-content: space-evenly;
+    color:white;
+    padding-left: 18px;
 }
+
+.action{
+    color: white;
+    font-family: Helvetica;
+    font-size: 30px;
+    padding-bottom: 200px;
+    padding-left:18px;
+    padding-top: 20px;
+    background-image: url("../images/earth.png\ copy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.inform1, .inform2, .inform3{
+    display:flex;
+    justify-content: space-around;
+    border: 1px solid #c0c0c0 ;
+}
+
+.list1, .list2, .list3{
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    font-size:20px;
+}
+
+.title1, .title2, .title3{
+    display:flex;
+    justify-content: flex-end;
+    flex-direction:column;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444444;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.campaign, .oil, .waste{
+    opacity:70%;
+    height:150px;
+    width: 600px;
+}
+
+footer{
+    text-align: center;
+    border: 1px solid #c0c0c0 ;
+}
+
