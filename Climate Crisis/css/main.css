@@ -1,0 +1,49 @@
+.header{
+    display: flex ;
+    align-items: center;
+    justify-content:space-evenly;
+    border: 1px solid #c0c0c0 ;
+}
+
+.title{
+    color: #0c59cf;
+    font-family: "Asset";
+}
+
+.currentEvents{
+    font-size: 30px;
+    font-family: Helvetica;
+    font-weight: bold;
+    margin-left: -10px;
+    margin-right: 10px;
+    border-left: 1px solid #c0c0c0 ;
+    border-right: 1px solid #c0c0c0 ;
+    padding: 0px 30px 0px 30px ;
+}
+
+.engine{
+    width: 200px;
+    padding:10px;
+    border-radius: 20px;
+}
+
+.headerIPCC{
+    font-size: 30px;
+    color: #0c59cf;
+    font-weight: bold;
+    font-family: Helvetica;
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-color: rgb(255,255,255,0.6)
+}
+
+.imageIPCC{
+    background-image:  url("../images/antartic.png") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header, .imageIPCC{
+    margin:0;
+}
