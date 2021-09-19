@@ -86,7 +86,7 @@
 .desc{
     display:flex;
     flex-direction: column;
-    color: white;
+    color: black;
     font-size: 20px;
     position: absolute;
     top: 50%;
@@ -105,7 +105,7 @@
     right:0;
     height:100%;
     width:100%;
-    background-color: rgb(1,1,1,0.7);
+    background-color: rgba(225,225,225, 0.6);
     transition: .5s ease;
     opacity:0;
 }
