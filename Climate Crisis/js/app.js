@@ -1,6 +1,9 @@
-let slideIndex= 1;
-showSlides(slideIndex);
+/*main tab*/
+function openInNewTab(url){
+  window.open(url, '_blank').focus();
+}
 
+/* slide show*/
 function nextSlide(){
   showSlides(slideIndex +=1);
 }
@@ -35,3 +38,6 @@ function showSlides(n) {
   /* Making an element block: */
   slides[slideIndex - 1].style.display = "block";    
 }
+
+let slideIndex= 0;
+showSlides(slideIndex);

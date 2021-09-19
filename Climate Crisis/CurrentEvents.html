@@ -4,28 +4,114 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./css/main.css">
-    <script src="../js/app.js"></script>
-    <title> The Climate Crisis</title>
+    <link rel="stylesheet" href="./css/2nd.css">
+    <script src="./js/app.js"></script>
+    <title> Current Events</title>
 </head>
 
 <body>
     <header>
       <div class = "header">
-        <div class='title'>
-          <h1>The Climate Crisis</h1>
+        <div class='title' onclick='openInNewTab("./climateCrisis.html");'>
+          <h1>The Climate Crisis </h1>
         </div>
-        <div class='currentEvents'>
+        <div class='currentEvents' onclick='openInNewTab("./CurrentEvents.html");'>
           <h4>Current Events </h4>
         </div>
         <input class="engine" type="text" placeholder="Search for something ...">
       </div>
       </header>
-   
-      <p>The intensifying climate crisis has become very clear with the frequent reports of extreme weather in 2021, from heatwaves and hurricanes in the US to deadly flooding in Europe and China.  According to the UN, climate and weather related disasters surge have five-folded over the past 50 years disproportionally impacting poorer countries. We need to remember that the climate emergency is not just destroying our planet but exacerbating the systematic inequality in our society. </p>
 
-        <p>The picture gallery scrapes the surface of all the extreme weather events that occurred in 2021. These pictures could have been taken anywhere in the world, your local park or backyard. Click the pictures for further information. </p>
-    
+      <div class="imageSummary">
+        <h2 class='headerSummary'> A summary of 2021</h2>
+   
+          <div class=intro>
+            <p >The intensifying climate crisis has become very clear with the frequent reports of extreme weather in 2021, from heatwaves and hurricanes in the US to deadly flooding in Europe and China.  According to the UN, climate and weather related disasters surge have five-folded over the past 50 years disproportionally impacting poorer countries. We need to remember that the climate emergency is not just destroying our planet but exacerbating the systematic inequality in our society. </p>
+            <p >The picture gallery scrapes the surface of all the extreme weather events that occurred in 2021. These pictures could have been taken anywhere in the world; this could be you looking at your local park or street.  </p>
+          </div>
+      </div>
+
+      <div class ="resposive">
+        <div class= "gallery">
+        <img src= "./images/Germany.jpeg" width ="600" height="400">
+        <div class="desc1"> This image provided on July 16, 2021 by the Cologne district government shows the Blessem district of Erftstadt in Germany. © Rhein-Erft-Kreis </div>
+        <div class="overlay">
+          <p class= "desc">The mid-July floods that killed at least 220 people in Germnay and Belgium were caused by recording-shattering rainfall that caused several rivers in the region to burst their banks. 
+            <br> </br>
+            <br>A <a href=https://www.nature.com/articles/d41586-021-02330-y> new study</a>  found the climate crisis has made the extreme rainfall between 1.2 and nine times more likely to happen and that such downpours in the region are now 3% to 19% more intense. The scientists from the World Weather Attribution group said that as temperatures rise further, western and central Europe will be exposed to increasing extreme rainfall and flooding. </br>  </p>
+        </div>
+      </div>
+
+      <div class= "gallery">
+        <img src= "./images/China.jpeg" width ="600" height="400">
+        <div class="desc1"> Photos taken by Weibo user merakiZz- show a deluged subway car in Zhengzhou, Henan province. © AFP via Getty Images </div>
+        <div class ="overlay">
+          <p class = "desc"> The scene were apocalyptic. On 20 July, a flash flood in Zhengshou caused a kilometer-long section of the city's Metrol Line 5 tunnel to fill with water. More than 500 passangers on the metro carriage clung to the handrails and struggled to breath in the deminsing space between them and the roof.  
+            <br> </br> 
+            <br>Overall, at least 25 people have been killed and more than 200,000 displaced by the disaster.  </br> </p>
+        </div>
+      </div>
+
+      <div class= "gallery">
+        <img src= "./images/Greece.jpeg" width ="600" height="400">
+        <div class = "desc1">A local resident reacts as he observes a large blaze during an attempt to extinguish forest fires approaching Pefki village, Evia. © AFP/Getty Images</div>
+        <div class="overlay">
+          <p class="desc"> On July 21, a small widlfire began burning in Evia. Over the next 20 days, the wildfire swelled into a large conflagration jumping from one coastline of Evia to another. The wildfire led to a staggering amount of damage with more than 100,000 hectares of forest and farmland miles burnt more than twice the yearly average from 2008 to 2020, according to the <a href= https://effis.jrc.ec.europa.eu/apps/effis.statistics.portal/effis-estimates/EU>European Forest Fire Information System</a>. The fires have left three dead, hundreds homeless, forced thousands to flee, and caused economic and environmental devastation. 
+            <br> </br>
+            <br> "The climate Crisis is here." as said by Prime Minister Kyriakos Mitsotakis. </br></p>
+        </div>
+      </div>
+
+      <div class= "gallery">
+        <img src= "./images/California.jpeg" width ="600" height="400">
+        <div class="desc1"> Flames consume a home as the Dixie Fire tears through the Indian Falls community in Plumas County.  © CNN </div>
+        <div class="overlay">
+          <p class="desc"> Parts of the western US have seen record-breaking temperatures this year, which - along with severe drought conditions - have triggered a series of major wildfires.
+            <br> </br>
+          <br>So far this year in California, more than twice as many acres of land have been burned by wildfires compared with the five-year average. </br>
+          <br> </br>
+          <br>Across the United States, more than 3.5 million acres have been burned so far this year. That's one million more than at this point in the 2020 fire season - which ended as the most destructive season on record.</br></p>
+        </div>
+        </div>
+
+      <div class= "gallery">
+        <img src= "./images/Siberia.jpeg.webp" width ="600" height="400">
+        <div class="desc1"> Volunteers pause while working at the scene of a forest fire in the Gorny Ulus area, west of Yakutsk, Russia, on Aug. 7.  ©Ivan Nikiforov/AP </div>
+        <div class="overlay">
+         <p class="desc"> Russia is fighting more than 190 forest fires in Siberia that have closed airports and roads, forced widespread evacuations. But it has abandoned dozens more fires covering thousands of square miles, with no effort to fight them, as they do not threaten houses or economic infrastructure . These fires have scorched nearly 8,000 square miles — an area nearly 10 times bigger than California’s devastating Dixie Fire.
+          <br>  </br>
+          <br > The fires raging in Siberia are bigger than fires in Greece, Turkey, Italy, the United States and Canada combined. </br>
+          <br>  </br>
+          <br> <a href= https://modis.gsfc.nasa.gov/gallery/individual.php?db_date=2021-08-07>NASA</a> said its satellite images showed wildfire smoke travelling “more than 3,000km (1,800 miles) from Yakutia to reach the north pole”, calling it “a first in recorded history”. It added that on 6 August most of Russia was covered in smoke.</br></p>
+         </div>
+      </div>
+
+      <div class= "gallery">
+        <img src= "./images/Amazon.jpeg" width ="600" height="400">
+        <div class="desc1"> Forest fire in a deforested area in a public forest in Porto Velho, Rondônia. © Christian Braga / Greenpeace</div>
+        <div class="overlay">
+          <p class="desc">Greenpeace Brazil captured <a href=https://www.greenpeace.org/international/press-release/44056/images-illegal-fires-raging-amazon-brazil-bolsonaro-desforestation-2020>images </a> of illegal fires causing widespread destruction in the Amazon during a flyover carried out between 29 to 31 July. The images come as the Brazilian Space Research Institute (INPE) registered 8.712 km² of deforestation over the period of August 2020 to July 2021, the second largest year-round deforestation rate recorded by the DETER-B alert system.These fires are burning after a prohibition against the use of fire to clear land.
+            <br> </br>
+          <br> On 3 August, the Brazilian Chamber of Deputies passed a radical law, PL2633 that would legitimize land grabbing within public lands. Land grabbing on public lands is linked to one-third of all Amazon deforestation in Brazil. </br></p>
+        </div>
+      </div>
+
+      <div class= "gallery">
+        <img src= "./images/Kenya.jpeg" width ="600" height="400">
+        <div class="desc1"> A man crosses arid land in western Turkana, one of 23 counties in Kenya facing an urgent need for food due to poor rains.  © David Bathgate/Corbis/Getty Images</div>
+        <div class="overlay">
+          <p class="desc"> An estimated 2.1 million Kenyans face starvation due to a drought in half the country, which is affecting harvests.
+            <br> </br>
+          <br> The <a href=https://www.ndma.go.ke/index.php/resource-center/send/81-2021/6131-lra-2021-national-report>National Drought Management Authority (NDMA) </a> said people living in 23 counties across the arid north, northeastern and coastal parts of the country will be in “urgent need” of food aid over the next six months, after poor rains between March and May this year.</br></p>
+        </div>
+      </div>
+
+      <div class="tocome">
+      <h2>To come: NOAA predicts another active Atlantic hurricane season.  </h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/cU0ljJ4v-XA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+
 </body>
 <footer>
   <p> Made by:</p>
