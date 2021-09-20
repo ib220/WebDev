@@ -13,6 +13,7 @@ function nextSlide(){
   } else{
     slideIndex=0;
   }
+  showSlides();
 }
 
 function previousSlide(){
@@ -21,6 +22,7 @@ function previousSlide(){
   } else{
     slideIndex=slides.length;
   }
+  showSlides();
 }
 
 function showSlides(){
@@ -31,4 +33,3 @@ function showSlides(){
   slides[slideIndex].classList.add("active");
 }
 
-showSlides();
