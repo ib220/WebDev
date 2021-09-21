@@ -17,10 +17,10 @@ function nextSlide(){
 }
 
 function previousSlide(){
-  if(slideIndex < slides.length){
+  if(slideIndex >0){
     slideIndex--;
   } else{
-    slideIndex=slides.length;
+    slideIndex=slides.length-1;
   }
   showSlides();
 }
