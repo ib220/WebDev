@@ -201,7 +201,7 @@
     }
 
     .mySlides  >p {
-        font-size: 24px;
+        font-size: 22px;
     }
     
     .mySlides  >h1 {
@@ -276,6 +276,7 @@
     .informationIPCC{
         margin-left: 10%;
         margin-right: 10%;
+        height:310px;
     }
 
     .actionHeader{
